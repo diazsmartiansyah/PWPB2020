@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">LatihanLinear&amp;RelativeLayoutPart2(2)</string>
+    <string name="lbl_nama">Nama</string>
+    <string name="lbl_alamat">Alamat</string>
+    <string name="lbl_kampus">Kampus</string>
+    <string name="nama">Diazs Martiansyah</string>
+    <string name="alamat">Gumuruh</string>
+    <string name="kampus">SMKN 4 Bandung</string>
+    <string name="kembali">KEMBALI</string>
+    <string name="next">NEXT</string>
+</resources>

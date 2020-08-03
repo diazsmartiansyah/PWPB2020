@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LatihanLinear&amp;RelativeLayoutPart2</string>
+    <string name="nama">Diazs Martiansyah</string>
+    <string name="inp_nama">Nama</string>
+    <string name="inp_pass">Password</string>
+    <string name="Inp_ulangPassword">Ulang Password</string>
+    <string name="daftar">DAFTAR</string>
+</resources>
