@@ -48,24 +48,25 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/inp_nama"
-            android:hint="@string/inp_pass" />
+            android:hint="@string/inp_pass"
+            android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/inp_ulangPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/inp_password"
-            android:hint="@string/Inp_ulangPassword" />
+            android:hint="@string/Inp_ulangPassword"
+            android:inputType="textPassword" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_below="@+id/inp_ulangPassword"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
             android:background="@drawable/btn_rounded"
             android:text="@string/daftar" />
-
 
 
     </RelativeLayout>
