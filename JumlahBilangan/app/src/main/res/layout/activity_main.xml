@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Menjumlahkan 2 Buah Bilangan"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:paddingVertical="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/inputForm"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_judul"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Bilangan Pertama"/>
+
+        <EditText
+            android:id="@+id/bil_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Bilangan Kedua"/>
+
+        <EditText
+            android:id="@+id/bil_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/inputForm"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_jumlah"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:text="Hitung Bilangan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text="Hasil Penjumlahan"
+            android:layout_marginBottom="80dp"/>
+
+        <EditText
+            android:id="@+id/et_hasil"
+            android:layout_width="100dp"
+            android:textAlignment="center"
+            android:editable="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>
